@@ -62,7 +62,7 @@ def main():
 
 # Access's Name Parser's awesome random name API
 def get_name():
-    api_key = "-------insert api key-------"
+    api_key = "------insert api key-------"
     url = f"https://api.parser.name/?api_key={api_key}&endpoint=generate"
     response = requests.get(url)
 
@@ -76,7 +76,7 @@ def get_name():
 
 # Access Name Parser's random name API, this time from a specific country
 def get_name(country_code):
-    api_key = "-------insert api key---------"
+    api_key = "------insert api key---------"
     url = f"https://api.parser.name/?api_key={api_key}&endpoint=generate&country_code={country_code}"
     response = requests.get(url)
 
